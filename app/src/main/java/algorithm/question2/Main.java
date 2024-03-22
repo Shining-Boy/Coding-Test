@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+//삼각 달팽이 문제
 public class Main {
 
     public static void main(String[] args) throws IOException {
@@ -16,6 +17,10 @@ public class Main {
         System.out.println(n);
 
         Solution solutionInstance = new Solution();
-        solutionInstance.solution(n);
+        int[] result = solutionInstance.solution(n);
+
+        for(int v : result){
+            System.out.print(String.valueOf(v) + " ");
+        }
     }
 }
