@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.IOException;
 
+//거리두기 확인하기 문제(맨해튼 거리)
 public class Main {
     public static void main(String[] args) throws IOException {
         String inputpath = System.getProperty("user.dir") + "\\app\\src\\main\\java\\algorithm\\question3\\";
