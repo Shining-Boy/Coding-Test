@@ -14,6 +14,8 @@ public class Main {
         br.close();
 
         Solution sol = new Solution();
-        System.out.println(Arrays.toString(sol.solution(inputData)));
+        int[][] result = sol.solution(inputData);
+        for(int i=0; i<result.length; i++)
+            System.out.println(Arrays.toString(result[i]));
     }
 }
