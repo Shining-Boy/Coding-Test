@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String inputpath = System.getProperty("user.dir") + "\\app\\src\\main\\java\\algorithm\\question1\\";
+        String inputpath = System.getProperty("user.dir") + "\\app\\src\\main\\java\\algorithm\\question18\\";
         BufferedReader br = new BufferedReader(new FileReader(inputpath + "input.txt"));
 
         int numberOfLine = Integer.parseInt(br.readLine());
