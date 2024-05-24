@@ -12,7 +12,7 @@ public class Main {
         String numbers =  br.readLine();
         br.close();
 
-        Solution sol = new Solution();
+        SolutionV2 sol = new SolutionV2();
         System.out.println(sol.solution(numbers));
     }
 }
