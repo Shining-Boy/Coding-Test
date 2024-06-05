@@ -1,0 +1,9 @@
+5
+frodo
+fradi
+crodo
+abc123
+frodoc
+2
+fr*d*
+abc1**

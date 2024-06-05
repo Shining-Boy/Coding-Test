@@ -12,20 +12,22 @@ public class Main {
         BufferedReader br = new BufferedReader(new FileReader(inputpath + "input.txt"));
 
         int numberOfId = Integer.parseInt(br.readLine());
-        List<String> idList = new ArrayList<>();
+        // List<String> idList = new ArrayList<>();
+        String[] idList = new String[numberOfId];
         for(int i=0; i<numberOfId; i++) {
             String line = br.readLine();
-            idList.add(line);
+            idList[i] = line;
         }
         int numberOfbanned = Integer.parseInt(br.readLine());
-        List<String> bannedList = new ArrayList<>();
+        // List<String> bannedList = new ArrayList<>();
+        String[] bannedList = new String[numberOfbanned];
         for(int i=0; i<numberOfbanned; i++) {
             String line = br.readLine();
-            idList.add(line);
+            bannedList[i] = line;
         }
         br.close();
 
         Solution sol = new Solution();
-        System.out.println(sol.solution((String[])idList.toArray(), (String[])bannedList.toArray()));
+        System.out.println(sol.solution(idList, bannedList));
     }
 }
