@@ -26,6 +26,6 @@ public class Main {
         br.close();
 
         Solution sol = new Solution();
-        System.out.println(sol.solution(idList, bannedList));
+        System.out.println(sol.solution((String[])idList.toArray(), (String[])bannedList.toArray()));
     }
 }
